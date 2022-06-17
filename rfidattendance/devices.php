@@ -44,7 +44,7 @@ if (!isset($_SESSION['Admin-name'])) {
 <body>
 <?php include'header.php';?>
 <main>
-	<h1 class="slideInDown animated">Add a new Device/update/remove/Enable/Disable</h1>
+	<h1 class="slideInDown animated here-text">Add a new Device/update/remove/Enable/Disable</h1>
 
 	<section class="container py-lg-5">
 		<div class="alert_dev"></div>

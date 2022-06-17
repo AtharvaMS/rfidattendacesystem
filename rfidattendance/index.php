@@ -14,19 +14,23 @@ if (!isset($_SESSION['Admin-name'])) {
 
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/Users.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/Users.css"> -->
+
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="css/Users.css?v=<?php echo time(); ?>">
     <script>
       $(window).on("load resize ", function() {
         var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
         $('.tbl-header').css({'padding-right':scrollWidth});
     }).resize();
     </script>
+    <script src="https://kit.fontawesome.com/ae8fea21dc.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <?php include'header.php'; ?> 
 <main>
 <section>
-  <h1 class="slideInDown animated">Here are all the Users</h1>
+  <h1 class="slideInDown animated here-text">Here are all the Users</h1>
   <!--User table-->
   <div class="table-responsive slideInRight animated" style="max-height: 400px;"> 
     <table class="table">
@@ -38,6 +42,7 @@ if (!isset($_SESSION['Admin-name'])) {
           <th>Card UID</th>
           <th>Date</th>
           <th>Device</th>
+          <!-- <th><i class="fa-brands fa-apple"></i></th> -->
         </tr>
       </thead>
       <tbody class="table-secondary">

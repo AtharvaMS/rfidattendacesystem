@@ -2,12 +2,16 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel='stylesheet' type='text/css' href="css/bootstrap.css"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/header.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="css/header.css"/> -->
+	<link rel="stylesheet" href="css/header.css?v=<?php echo time(); ?>">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <header>
 <div class="header">
 	<div class="logo">
-		<a href="index.php">RFID Attendance</a>
+		<a href="index.php">YouAttend</a>
 	</div>
 </div>
 <?php  
@@ -68,8 +72,10 @@
     		echo '<a href="login.php">Log In</a>';
     	}
     ?>
+	<a href="about.php">About</a>
     <a href="javascript:void(0);" class="icon" onclick="navFunction()">
 	  <i class="fa fa-bars"></i></a>
+
 </div>
 <div class="up_info1 alert-danger"></div>
 <div class="up_info2 alert-success"></div>
