@@ -57,7 +57,7 @@ if (!isset($_SESSION['Admin-name'])) {
 <?php include'header.php'; ?> 
 <section class="container py-lg-5">>
   <!--User table-->
-    <h1 class="slideInDown animated">Here are the Users daily logs</h1>
+    <h1 class="slideInDown animated here-text">Here are the Users daily logs</h1>
     <div class="form-style-5">
       <button type="button" data-toggle="modal" data-target="#Filter-export">Log Filter/ Export to Excel</button>
     </div>

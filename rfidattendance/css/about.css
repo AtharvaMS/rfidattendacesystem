@@ -58,8 +58,42 @@ section {
     animation-name: slideInDown;
 }
 
-.here-text {
+.white-text {
     color: #fff;
+    margin-bottom: 5%;
+    font-size: 2.25rem;
+}
+
+.line {
+    font-family: "Montserrat";
+    /* font-weight: bold; */
+    margin: auto;
+    font-size: 1.78rem;
+    /* size: 1.5rem; */
+}
+
+.subline {
+    color: #8F8F8F;
+    /* margin: auto; */
+}
+
+.row {
+    text-align: center;
+    /* margin: 5%; */
+}
+
+.middle {
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+
+hr {
+    color: #fff;
+    border: dotted 6px !important;
+    border-bottom: none !important;
+    width: 5% !important;
+    margin: 100px auto !important;
 }
 
 .animated {

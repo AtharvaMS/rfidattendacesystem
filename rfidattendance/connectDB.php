@@ -1,6 +1,6 @@
 <?php
 /* Database connection settings */
-	$servername = "localhost";
+	$servername = "localhost:3308";
     $username = "root";		//put your phpmyadmin username.(default is "root")
     $password = "";			//if your phpmyadmin has a password put it here.(default is "root")
     $dbname = "rfidattendance";
